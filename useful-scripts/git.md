@@ -4,7 +4,7 @@
   ```bash
   git branch --merged | egrep -v "(^\*|master|main|dev)" | xargs git branch -d
   ```
-- **Show differences between remote & local branch
+- **Show differences between remote & local branch**
   ```bash
   git diff origin/master .
   ```
