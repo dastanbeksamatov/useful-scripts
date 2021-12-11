@@ -11,3 +11,9 @@
     /pub const MILLISECS_PER_BLOCK: u64 = 4000;/g' \
     ./runtime/src/lib.rs
   ```
+
+- List files in the directory in a human readable form
+
+```bash
+du -a -h --max-depth=1 | sort -hr
+```
