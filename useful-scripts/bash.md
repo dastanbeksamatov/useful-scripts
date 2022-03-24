@@ -17,3 +17,9 @@
 ```bash
 du -a -h --max-depth=1 | sort -hr
 ```
+
+- Kill process running at port N
+```bash
+lsof -i tcp:<N> # get PID from here
+kill -9 <PID>
+```
