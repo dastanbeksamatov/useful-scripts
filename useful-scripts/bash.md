@@ -23,3 +23,12 @@ du -a -h --max-depth=1 | sort -hr
 lsof -i tcp:<N> # get PID from here
 kill -9 <PID>
 ```
+
+- Debug and trace any script
+
+```bash
+bash -x some-script.sh
+
+# Debug yarn
+bash -x /usr/local/bin/yarn start
+```
